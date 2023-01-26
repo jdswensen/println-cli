@@ -1,0 +1,14 @@
+[package]
+name = "println-cli"
+description = "Simple utility for printing a message with a newline"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jake Swensen <jake@swensen.io>"]
+license = "MPL-2.0"
+repository = "https://github.com/jdswensen/println-shell"
+readme = "README.md"
+keywords = ["shell", "scripting", "print", "echo", "println"]
+
+[dependencies]
+clap = { version = "4.1.4", features = ["derive"] }
+colored = "2.0.0"
